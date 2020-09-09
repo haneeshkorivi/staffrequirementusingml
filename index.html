@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <title>Staff Requirment</title>
+    <link href="https://fonts.googleapis.com/css2?family=Neucha&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="top">
+        <p class="heding">Staff Requirment</p>
+    </div>
+    
+    <div class="middle ">
+    <!--   <div class="card bg-light mb-3" style="max-width: 18rem;">
+        <div class="card-header">Header</div>
+        <div class="card-body">
+          <h5 class="card-title">Light card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div> -->
+      <div class="card bg-dark mb-4" style="height: 30rem;width:40rem; position: relative; left: 25rem; border-radius: 2rem;" >
+
+        <form style="margin-top: 4rem; height: 20rem;" action="output.html">
+        <div class="form-group" style="margin-top: 5vm;">
+        <div class="row justify-content-md-center">
+            <label class="col-md-auto eventdat" for="event-date">Choose Date:</label>
+            <input class="col-md-auto eventdat1" type="date" id="event-date" name="event-date" required>
+        </div >
+       <!--  <div class="row justify-content-md-center">
+            <div class="input-group-prepend col-md-auto">
+                <div class="input-group-prepend">
+                  <label class="chooseaday" for="inputGroupSelect01">Choose a day:</label>
+                </div>
+                <select class="custom-select select1" id="inputGroupSelect01" required>
+                  <option selected>Choose...</option>
+                  <option value="Monday">Monday</option>
+                  <option value="Tuesday">Tuesday</option>
+                  <option value="Wednesday">Wednesday</option>
+                  <option value="Thursday">Thursday</option>
+                  <option value="Friday">Friday</option>
+                  <option value="Satrday">Satrday</option>
+                  <option value="Sunday">Sunday</option>
+                </select>
+              </div>
+        </div> -->
+        <div class="row justify-content-md-center">
+            <div class="input-group-prepend col-md-auto">
+                <div class="input-group-prepend">
+                  <label class="chooseaevent" for="inputGroupSelect01">Choose a Event:</label>
+                </div>
+                <select class="custom-select select2" id="inputGroupSelect01" required>
+                  <option selected>Choose...</option>
+                  <option value="Birthday">Birthday</option>
+                  <option value="Wedding">Wedding</option>
+                  <option value="Confrence">Confrence</option>
+                  <option value="None">No Event</option>
+                </select>
+              </div>
+        </div>
+        <div class="row justify-content-md-center">
+            <label class="col-md-auto nooftable" for="nooftable">Tables required:</label>
+            <input class="col-md-auto nooftable1" type="number" min="0" id="nooftable" name="nooftable" required>
+        </div>
+        <button type="submit" class="btn btn-outline-light" style="position: absolute; left: 18rem; margin-top: 4rem;">Submit</button>
+      </div>
+    </div>
+  </form>
+    </div>
+</body>
+</html>

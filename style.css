@@ -1,0 +1,131 @@
+body{
+    text-align: center;
+    height: 100vw;
+}
+.top{
+    text-align: center;
+    position: relative;
+    height: 6vw;
+    width: 100%;
+    background-color: #222;
+}
+.heding{
+    color: white;
+    font-size: 3vw;
+    position: relative;
+    top: 15%;
+    margin-right: 74%;
+    font-family: 'Neucha', cursive;
+}
+.middle{
+    position: relative;
+    height: 40vw;
+    width: 100%;
+    top: 5vw;
+}
+.eventdat{
+    position: relative;
+    width: 10vw;
+    height: 3vw;
+    font-size: 1.5vw;
+    top: 12%;
+    right: 3.5vw;
+    color: white;
+}
+.eventdat1{
+    position: relative;
+    left: 4vw;
+    color: black;
+}
+.select1{
+    position: relative;
+    left: 2vw;
+    margin-top: 2vw;
+    color: white;
+}
+
+.chooseaday{
+    position: relative;
+    height: 3vw;
+    width: 10vw;
+    font-size: 1.5vw;
+    right: 5vw;
+    margin-top: 2vw;
+    color: white;
+}
+.chooseaevent{
+    position: relative;
+    height: 3vw;
+    width: 12vw;
+    font-size: 1.5vw;
+    right: 4.5vw;
+    margin-top: 4vw;
+    color: white;
+}
+.select2{
+    position: relative;
+    left: 0.9vw;
+    margin-top: 4vw;
+    color: black;
+}
+.nooftable{
+    position: relative;
+    width: 10vw;
+    height: 3vw;
+    font-size: 1.5vw;
+    top: 10%;
+    right: 2vw;
+    margin-top: 4vw;
+    color: white;
+}
+.nooftable1{
+    position: relative;
+    left: 4vw;
+    margin-top: 4vw;
+    color: black;
+}
+.fronthouse{
+    position: relative;
+    width: 10vw;
+    height: 3vw;
+    font-size: 1.5vw;
+    top: 12%;
+    right: 3.5vw;
+    color: white;
+}
+.fronthouse1{
+    position: relative;
+    left: 4vw;
+    color: black; 
+}
+.backhouse{
+    position: relative;
+    height: 3vw;
+    width: 12vw;
+    font-size: 1.5vw;
+    right: 4vw;
+    margin-top: 4vw;
+    color: white;
+}
+.backhouse1{
+    position: relative;
+    left: 4.5vw;
+    margin-top: 3vw;
+    color: black;
+}
+.totalrequired{
+    position: relative;
+    width: 10vw;
+    height: 3vw;
+    font-size: 1.5vw;
+    top: 10%;
+    right: 3vw;
+    margin-top: 4vw;
+    color: white;
+}
+.totalrequired1{
+    position: relative;
+    left: 3.5vw;
+    margin-top: 4vw;
+    color: black;
+}
