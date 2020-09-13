@@ -1,0 +1,69 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <title>Staff Requirment</title>
+  <link href="https://fonts.googleapis.com/css2?family=Neucha&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="row">
+    <div class="col-md-12">
+      <div class="top">
+        <p class="heding">Staff Requirment</p>
+      </div>
+      <div class="middle">
+        <div class="row">
+          <div class="col-md-6 offset-md-3 col-sm-12">
+            <div class="card bg-light mb-3" style="right: 15px;width: 34rem;">
+              <div class="card-body">
+                <form>
+                  <div class="form-group row">
+                    <label for="colFormLabel" class="col-sm-3 col-form-label col-form-label-sm">Choose Date:</label>
+                    <div class="col-sm-6">
+                      <input class="form-control form-control-sm" type="date" id="event-date" name="event-date"
+                        required>
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label for="colFormLabel" class="col-sm-3 col-form-label col-form-label-sm">Events:</label>
+                    <div class="col-sm-6">
+                      <select class="custom-select form-control-sm" id="inputGroupSelect01" required>
+                        <option selected>select</option>
+                        <option value="Birthday">Birthday</option>
+                        <option value="Wedding">Wedding</option>
+                        <option value="Confrence">Confrence</option>
+                        <option value="None">No Event</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label for="colFormLabel" class="col-sm-3 col-form-label col-form-label-sm">Tables Required:</label>
+                    <div class="col-sm-6">
+                      <input class="form-control form-control-sm" type="number" placeholder="Enter" min="0"
+                        id="nooftable" name="nooftable" required>
+                    </div>
+                  </div>
+                  <button style="margin-left: 40%;" type="submit" class="btn btn-secondary">Submit</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
